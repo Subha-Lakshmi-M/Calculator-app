@@ -1,0 +1,90 @@
+
+body {
+  background-color:#3B4664;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90vw;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Spartan", sans-serif;
+  max-width: 600px;
+}
+
+.calc {
+  font-size: 30px;
+  color: white;
+}
+
+.result {
+  flex-grow: 0;
+  background-color: #181F32;
+  border-radius: 10px;
+  color: white;
+  text-align: right;
+  padding: 15px;
+}
+
+.buttons {
+  flex-grow: 0;
+  background-color:#252D44;
+  display: grid;
+  grid-template-columns: repeat(4, 25fr);
+  gap: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons > .a-button {
+  font-size: 32px;
+  background-color:  #EAE3DB;
+  border-radius: 10px;
+  color: #3B4664;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons > .a-button:hover {
+  background-color: #b4a597;
+}
+
+.reset {
+  grid-column: 1 / span 2;
+}
+
+.equals {
+  grid-column: 3 / span 2;
+}
+
+.buttons > .equals {
+  background-color: #d03f2f;
+  color: white;
+  font-size: 25px;
+}
+
+.buttons > .equals:hover {
+  background-color: #93261a;
+}
+
+.buttons > .grey {
+  background-color: #637097;
+  color: white;
+  font-size: 25px;
+}
+
+.buttons > .grey:hover {
+  background-color: #404e72;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+
+
